@@ -1,6 +1,9 @@
 ## import pandas for data analysis
 import pandas as pd
 
+def print_summary_statistics(key, dataframe):
+    print('{}: max {:f} mean {:f} min {:f}'.format(key, dataframe[key].max(), dataframe[key].mean(), dataframe[key].min()))
+
 def generate_prediction_data(features, dataframe, percentiles = [5, 25, 50, 75, 90, 95, 99]):
     prediction_data = []
 
