@@ -2,7 +2,7 @@
 
 ## Overview
 
-School performance reporting has existed for some time, seeking to assess and quantify the effectiveness of public school systems.  Often, these assessments look solely at student achievement through results of standardized tests.  The source data set and this analysis are novel because of the features under review which extend beyond simply test scores and include a holistic, 360 degree view of the school's experience.
+School performance [reporting](https://www.cps.edu/about/district-data/metrics/accountability-reports/) has existed for some time, seeking to assess and quantify the effectiveness of public school systems.  Often, these assessments look solely at student achievement through results of standardized tests.  The source data set and this analysis are novel because of the features under review which extend beyond simply test scores and include a holistic, 360 degree view of the school's experience.
 
 <img src="https://github.com/burgwyn/DATA601-Midterm/blob/main/images/ayp_count.png" alt="Breakdown of Adequate Yearly Progress" />
 
@@ -60,8 +60,9 @@ The final solution should look like this
 ├── Midterm.ipynb
 ├── README.md
 ├── data
-│  └── Chicago_Public_Schools_-_Progress_Report_Cards__2011-2012_.csv
+│   └── Chicago_Public_Schools_-_Progress_Report_Cards__2011-2012_.csv
 ├── images
+│   └── ayp_count.png
 └── util.py
 ```
 
